@@ -1,0 +1,26 @@
+.form{
+    width: 100%;
+    font-style: italic;
+}
+form{
+    display: block;
+    margin: 20px 0;
+}
+.form label{
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+.form label,.form input{
+    margin: 10px 0;
+    height: 40px;
+    width: 100%;
+}
+.form button{
+    color:white;
+    background-color:  rgb(54, 54, 54);
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+}

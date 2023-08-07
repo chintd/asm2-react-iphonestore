@@ -1,0 +1,26 @@
+.product{
+    text-align: center;
+    width: 100%;
+    height: auto
+}
+.title {
+    text-transform: uppercase;
+    font-style: italic;
+}
+.title h3{
+    color: grey;
+    font-weight: 300;
+}
+.propduct-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    
+}
+.propduct-item a{
+    margin: 10px;
+}
+.propduct-item a:hover{
+    opacity: 0.6;
+}

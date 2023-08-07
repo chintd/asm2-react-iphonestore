@@ -1,0 +1,25 @@
+.shop{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 100%;
+}
+.shop-title{
+    background-color: rgb(228, 225, 225);
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.shop-title p {
+    color: grey;
+}
+.shop-title h1{
+    font-weight: 400;
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+}

@@ -1,0 +1,50 @@
+.login-container{
+    display: block;
+    width: 50%;
+    height: 438px;
+    font-style: italic;
+    z-index: 1;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 0px 20px 3px #8b8b8b;
+}
+.login{
+    background-image: url("../img/banner1.jpg");
+    width: 100%;
+    background-repeat: repeat;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 0;
+    padding-top: 100px;
+    padding-left: 30%;
+    padding-bottom: 210px;
+}
+.login-container button{
+    width: 100%;
+    height: 50px;
+    border:none;
+    padding:20px auto;
+    background-color:  rgb(54, 54, 54);
+    color: rgb(223, 224, 224);
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.login-container h1{
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.login-container p{
+    font-size: small;
+    color: grey;
+    margin: 0 5px;
+}
+.login-container a{
+    margin: 0 5px;
+}
+.login-container input{
+    height:50px;
+    width: 100%;
+}

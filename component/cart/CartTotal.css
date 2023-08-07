@@ -1,0 +1,41 @@
+.carttotal{
+    width: 100%;
+    height:300px;
+    background-color:  rgb(228, 225, 225);
+    font-style: italic;
+    font-weight: 400;
+    padding: 50px 30px;
+
+}
+.carttotal-sub, .carttotal-total{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.carttotal-sub p{
+    font-size: small;
+    color: grey;
+}
+.carttotal-action{
+    display: block;
+    margin-top:10px
+}
+.carttotal-action button{
+    background-color:  rgb(54, 54, 54);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+   
+}
+.carttotal-action input{
+    width: 100%;
+    height: 40px;
+
+}
+i svg{
+    width: 15px;
+    height:15px
+}

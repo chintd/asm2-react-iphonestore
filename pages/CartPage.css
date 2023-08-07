@@ -1,0 +1,32 @@
+.cart{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 100%;
+    font-style: italic;
+}
+.cart>div{
+    margin: 30px 0;
+}
+.cart-title{
+    background-color: rgb(228, 225, 225);
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.text-grey {
+    color: grey;
+    font-size: small;
+}
+
+.cart-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    font-style: italic;
+}

@@ -1,0 +1,36 @@
+.footer{
+    background-color: rgb(36, 35, 35);
+    color:white;
+    font-style: italic;
+    list-style: none;
+    margin-bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.footer-container h3{
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+}
+.footer-container{
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    width: 60%;
+    
+}
+.footer-container li{
+    list-style: none;
+    display: block;
+    text-align: center;
+}
+.footer-container li a{
+    font-style: italic;
+    font-size: small;
+    color:rgb(124, 124, 124);
+    text-decoration: none;
+}
+.footer-container li a:hover{
+    color: white;
+}

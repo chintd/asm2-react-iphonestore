@@ -1,0 +1,25 @@
+
+.shopitem img{
+    width: 100%;
+    height: 250px
+}
+.shopitem img:hover{
+    opacity: 0.6;
+}
+.shopitem{
+    margin: 10px
+}
+.shopitem-content{
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    color: black
+}
+.price{
+    color: grey
+}
+
+a{
+    text-decoration: none;
+
+}

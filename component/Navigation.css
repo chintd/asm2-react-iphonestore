@@ -1,0 +1,47 @@
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.icon{
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+}
+.nav-item a{
+    margin:10px;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.nav-item a.active,
+.nav-item a:hover{
+    color:rgb(250, 181, 90)
+}
+
+.navbar-nav li:last-child{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    cursor: pointer;
+}
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    color:grey
+}
+i svg{
+    height: 20px;
+    width: 20px;
+}

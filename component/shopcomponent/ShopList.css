@@ -1,0 +1,22 @@
+.shoplist h3, .shoplist h1{
+    font-style: italic;
+    text-transform: uppercase;
+}
+.shoplist h3{
+    color: grey;
+    font-weight: 300;
+}
+.shop-item-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.shop-item-list li{
+    list-style: none;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px;
+}

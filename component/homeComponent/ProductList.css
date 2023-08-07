@@ -1,0 +1,17 @@
+.list h3, .list h1{
+    font-style: italic;
+    text-transform: uppercase;
+}
+.list h3{
+    color: grey;
+    font-weight: 300;
+}
+.item-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.item-list li{
+    list-style: none;
+    cursor: pointer;
+}

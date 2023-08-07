@@ -1,0 +1,62 @@
+.livechat{
+    border-radius:  20px;
+    box-shadow: 0px 0px 20px 3px #888888;
+    background-color: white;
+    width: 400px;
+    height: 480px;
+    position: fixed;
+    z-index: 5;
+    bottom: 30px;
+    right: 50px
+}
+.livechat-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+.livechat-header p{
+    font-weight: 400;
+    font-style: italic;
+    background-color: rgb(209, 209, 209);
+    padding: 10px;
+}
+.livechat-message .float-right p{
+    color: white;
+    background-color: rgb(77, 169, 255);
+    display: block;
+    padding: 5px;
+    text-align: right;
+    margin: 10px 50px;
+}
+.livechat-message .float-left p{
+    color: grey;
+    background-color: #dfdede;
+    padding:5px;
+    text-align: left;
+}
+.livechat-message{
+    width: 80%;
+    height:300px
+}
+.livechat-message p{
+    border-radius: 5px;
+    margin: 10px;
+    width: 250px;
+}
+.livechat-send{
+    display: flex;
+    padding: 20px;
+    border-top: 1px solid grey;
+}
+.livechat-send i svg{
+    height: 20px;
+    width: 20px;
+    color: grey;
+    margin: 5px;
+    cursor: pointer;
+}
+.livechat-send i:last-child svg{
+    color:rgb(77, 169, 255)
+}
